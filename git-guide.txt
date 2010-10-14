@@ -6,6 +6,10 @@ git config -l
 git config --global user.name "Neo Chen"
 git config --global user.email neox@yahoo.cn
 
+## colorful output
+git config --global color.diff auto  // already given
+git config --global color.status auto
+git config --global color.branch auto
 
 
 
