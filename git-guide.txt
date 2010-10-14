@@ -16,4 +16,14 @@ git init
 git add .
 git commit -m "commit message"
 
+## list changes
+git status
+git diff //for more detailed information
 
+## commit changes
+git commit -am "commit message"
+
+##  start tracking new files and also to stage changes to already tracked files
+git add 
+## short message for git status
+git status -s
