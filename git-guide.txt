@@ -27,3 +27,9 @@ git commit -am "commit message"
 git add 
 ## short message for git status
 git status -s
+
+## Unstaged changes after reset:
+git reset HEAD -- filename 
+
+## remove files from being tracked in Git. It will also remove them from working directory
+git rm 
