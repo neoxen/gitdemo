@@ -11,5 +11,9 @@ git config --global color.diff auto  // already given
 git config --global color.status auto
 git config --global color.branch auto
 
+## project initial
+git init
+git add .
+git commit -m "commit message"
 
 
