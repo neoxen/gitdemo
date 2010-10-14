@@ -1,0 +1,11 @@
+
+## list the configuration
+git config -l   
+
+## set name and email
+git config --global user.name "Neo Chen"
+git config --global user.email neox@yahoo.cn
+
+
+
+
