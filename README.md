@@ -57,6 +57,7 @@ Contributing
 
 [checking][1]
 [gitdemo](http://github.com/neoxen/gitdemo.git)
+[checking](http://github/neoxen)
 [checking]: this line will not be rendered.
 
 1. abe
