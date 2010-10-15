@@ -33,3 +33,33 @@ git reset HEAD -- filename
 
 ## remove files from being tracked in Git. It will also remove them from working directory
 git rm 
+
+## branch and mergin
+# list all branches
+git branch
+
+# create branch
+git branch testing
+
+# switch to a branch
+git checkout testing
+# or create and switch to a branch
+git checkout -b testing
+
+# delete branch
+git branch -d testing
+
+# merge branch(under master)
+git merge testing
+
+# see log information about a branch
+git log
+# or
+git log --oneline
+
+# tag a branch
+git tag -a v1.0
+# or
+git tag -a v0.9 558151a
+
+
