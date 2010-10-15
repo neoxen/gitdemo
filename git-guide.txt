@@ -36,6 +36,8 @@ git reset HEAD -- filename
 
 ## remove files from being tracked in Git. It will also remove them from working directory
 git rm 
+# un-track a file and ignore it
+git rm --cached filename
 
 ## branch and mergin
 # list all branches
@@ -113,3 +115,23 @@ ssh-keygen -t rsa -C "neox@yahoo.cn"
 #3.6 copy the text in id_rsa.pub to SSH Public Keys on github.com
 #3.7 test the configuration
 ssh git@github.com
+
+############################################################
+# ignoring files                                           #
+############################################################
+
+#1. .gitignore
+#2. global .gitignore
+# A global .gitignore file can also be used by adding one to 
+# your global git config. For example, you might create the 
+# file ~/.gitignore_global and add some rules to it. To add 
+# this to your config, run 
+git config --global core.excludesfile ~/.gitignore_global
+#3. repo exclude
+# Local per-repo rules can be added to the 
+.git/info/exclude 
+# file in your repo. These rules are not committed with 
+# the repo so they are not shared with others. This method 
+# can be used for locally-generated files that you don’t 
+# expect other users to generate, like files created by 
+# your editor.
