@@ -83,6 +83,9 @@ git remote rm orgin
 
 # download new branches and data from a remote
 git fetch github
+git merge github/master
+# or
+git pull github
 
 # push new branches and data to a remote
 git push github master
