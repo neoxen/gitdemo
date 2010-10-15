@@ -31,6 +31,7 @@ Want to contribute? Great! There are two ways to add markups.
 Installation
 -----------
 
+    $install
 
 
 Usage
@@ -55,7 +56,9 @@ Contributing
 
 
 [checking][1]
-[checking]:
+[gitdemo](http://github.com/neoxen/gitdemo.git)
+[checking]: this line will not be rendered.
+
 1. abe
 2. 345
 3. 测试
