@@ -11,13 +11,12 @@ The following markups are supported.  The dependencies listed are required if
 you wish to run the library.
 
 
-* [测试](效果)正常
+* [中文支持测试](效果)正常
 
 
 Contributing
 ------------
 
-Want to contribute? Great! There are two ways to add markups.
 
 
 ### Commands
@@ -37,12 +36,12 @@ Installation
 Usage
 -----
 
-
+    $usage
 
 Testing
 -------
 
-
+    $test
 
 Contributing
 ------------
@@ -55,11 +54,11 @@ Contributing
 6. Enjoy a refreshing Diet Coke and wait
 
 
-[checking][1]
+[1](http://github.com/neoxen/gitdemo/wiki)
+
 [gitdemo](http://github.com/neoxen/gitdemo.git)
-[checking](http://github/neoxen)
+
+[neoxen](http://github/neoxen)
+
 [checking]: this line will not be rendered.
 
-1. abe
-2. 345
-3. 测试
