@@ -1,3 +1,6 @@
+############################################################
+# using git locally                                        #
+############################################################
 
 ## list the configuration
 git config -l   
@@ -62,4 +65,51 @@ git tag -a v1.0
 # or
 git tag -a v0.9 558151a
 
+############################################################
+# sharing and updateing // using github.com                #
+############################################################
 
+# list remotes
+git remote
+git remote -v
+
+# add a remote
+git remote add origin(github//alias) git@github.com:neoxen/gitdemo.git
+
+# delete a remote
+git remote rm orgin
+
+# download new branches and data from a remote
+git fetch github
+
+# push new branches and data to a remote
+git push github master
+git push github testing
+
+## using github
+#1. register an account on github.com
+#2. create a repository
+#3. config the repository
+#3.1 
+cd ~/.ssh
+#3.2 
+ls
+#3.3 
+mkdir key_backup
+#3.4
+cp id_rsa* key_backup
+rm id_rsa*
+#3.5
+ssh-keygen -t rsa -C "neox@yahoo.cn"
+# Generating public/private rsa key pair.
+# Enter file in which to save the key (/c/Users/Tekkub/.ssh/id_rsa):
+# Enter passphrase (empty for no passphrase):
+# Enter same passphrase again:
+# Your identification has been saved in /c/Users/Tekkub/.ssh/id_rsa.
+# Your public key has been saved in /c/Users/Tekkub/.ssh/id_rsa.pub.
+# The key fingerprint is:
+# e8:ae:60:8f:38:c2:98:1d:6d:84:60:8c:9e:dd:47:81 tekkub@gmail.com
+
+#3.6 copy the text in id_rsa.pub to SSH Public Keys on github.com
+#3.7 test the configuration
+ssh git@github.com
