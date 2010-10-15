@@ -54,8 +54,9 @@ Contributing
 6. Enjoy a refreshing Diet Coke and wait
 
 
-[checking][1]
-[checking]:
+[checking](http://github/neoxen)
+[checking]: this line will not be rendered.
+
 1. abe
 2. 345
 3. 测试
