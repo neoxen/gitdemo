@@ -138,3 +138,28 @@ git config --global core.excludesfile ~/.gitignore_global
 # can be used for locally-generated files that you don’t 
 # expect other users to generate, like files created by 
 # your editor.
+#
+
+############################################################
+# chinese character issues                                 #
+############################################################
+# Git的Windows版本Msysgit对中文的支持不够好 
+# 当使用时，会出现以下三种情况的中文乱码： 
+
+# 1.ls不能显示中文目录 
+# 解决办法：在git/git-completion.bash中增加一行： 
+alias ls='ls --show-control-chars --color=auto' 
+
+
+# 2.git commit不能提交中文注释 
+# 解决办法：修改git/inputrc中对应的行： 
+
+set output-meta on 
+set convert-meta off 
+
+
+# 3.git log无法显示中文注释 
+# 解决办法：在git/profile中增加一行： 
+
+export LESSCHARSET=iso8859
+
