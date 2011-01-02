@@ -150,13 +150,11 @@ git config --global core.excludesfile ~/.gitignore_global
 # 解决办法：在git/git-completion.bash中增加一行： 
 alias ls='ls --show-control-chars --color=auto' 
 
-
 # 2.git commit不能提交中文注释 
 # 解决办法：修改git/inputrc中对应的行： 
 
 set output-meta on 
 set convert-meta off 
-
 
 # 3.git log无法显示中文注释 
 # 解决办法：在git/profile中增加一行： 
